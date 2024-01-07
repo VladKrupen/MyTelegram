@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014AF28B2B494163004E3A01 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014AF28A2B494163004E3A01 /* ChatsViewController.swift */; };
+		014AF28E2B4941A9004E3A01 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 014AF28D2B4941A9004E3A01 /* SnapKit */; };
+		014AF2902B4941A9004E3A01 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 014AF28F2B4941A9004E3A01 /* SnapKit-Dynamic */; };
 		015BF7132B470C46004B59A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015BF7122B470C46004B59A7 /* AppDelegate.swift */; };
 		015BF7152B470C46004B59A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015BF7142B470C46004B59A7 /* SceneDelegate.swift */; };
-		015BF7172B470C46004B59A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015BF7162B470C46004B59A7 /* ViewController.swift */; };
-		015BF71A2B470C46004B59A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015BF7182B470C46004B59A7 /* Main.storyboard */; };
 		015BF71C2B470C47004B59A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015BF71B2B470C47004B59A7 /* Assets.xcassets */; };
 		015BF71F2B470C47004B59A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015BF71D2B470C47004B59A7 /* LaunchScreen.storyboard */; };
+		0167C5A52B49991E00A68DEA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0167C5A42B49991E00A68DEA /* MainTabBarController.swift */; };
+		0167C5AA2B499E3A00A68DEA /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0167C5A92B499E3900A68DEA /* SetupViewController.swift */; };
+		0167C5AC2B499E4A00A68DEA /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0167C5AB2B499E4A00A68DEA /* CallsViewController.swift */; };
+		0167C5AE2B499E6400A68DEA /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0167C5AD2B499E6400A68DEA /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		014AF28A2B494163004E3A01 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
 		015BF70F2B470C46004B59A7 /* Telegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		015BF7122B470C46004B59A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		015BF7142B470C46004B59A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		015BF7162B470C46004B59A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		015BF7192B470C46004B59A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		015BF71B2B470C47004B59A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		015BF71E2B470C47004B59A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		015BF7202B470C47004B59A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0167C5A42B49991E00A68DEA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		0167C5A92B499E3900A68DEA /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		0167C5AB2B499E4A00A68DEA /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
+		0167C5AD2B499E6400A68DEA /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +39,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014AF28E2B4941A9004E3A01 /* SnapKit in Frameworks */,
+				014AF2902B4941A9004E3A01 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014AF2872B493FCB004E3A01 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				015BF7122B470C46004B59A7 /* AppDelegate.swift */,
+				015BF7142B470C46004B59A7 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		014AF2882B493FDD004E3A01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				015BF71B2B470C47004B59A7 /* Assets.xcassets */,
+				015BF71D2B470C47004B59A7 /* LaunchScreen.storyboard */,
+				015BF7202B470C47004B59A7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		014AF2892B49411B004E3A01 /* TelegramChatsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				014AF28A2B494163004E3A01 /* ChatsViewController.swift */,
+			);
+			path = TelegramChatsViewController;
+			sourceTree = "<group>";
+		};
 		015BF7062B470C46004B59A7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +93,47 @@
 		015BF7112B470C46004B59A7 /* Telegram */ = {
 			isa = PBXGroup;
 			children = (
-				015BF7122B470C46004B59A7 /* AppDelegate.swift */,
-				015BF7142B470C46004B59A7 /* SceneDelegate.swift */,
-				015BF7162B470C46004B59A7 /* ViewController.swift */,
-				015BF7182B470C46004B59A7 /* Main.storyboard */,
-				015BF71B2B470C47004B59A7 /* Assets.xcassets */,
-				015BF71D2B470C47004B59A7 /* LaunchScreen.storyboard */,
-				015BF7202B470C47004B59A7 /* Info.plist */,
+				014AF2872B493FCB004E3A01 /* Application */,
+				014AF2882B493FDD004E3A01 /* Resources */,
+				0167C5A32B49990400A68DEA /* MainTabBarController */,
+				0167C5A82B499C8600A68DEA /* ContactsViewController */,
+				0167C5A72B499C7900A68DEA /* CallsViewController */,
+				014AF2892B49411B004E3A01 /* TelegramChatsViewController */,
+				0167C5A62B499B8100A68DEA /* SetupViewController */,
 			);
 			path = Telegram;
+			sourceTree = "<group>";
+		};
+		0167C5A32B49990400A68DEA /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				0167C5A42B49991E00A68DEA /* MainTabBarController.swift */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		0167C5A62B499B8100A68DEA /* SetupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0167C5A92B499E3900A68DEA /* SetupViewController.swift */,
+			);
+			path = SetupViewController;
+			sourceTree = "<group>";
+		};
+		0167C5A72B499C7900A68DEA /* CallsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0167C5AB2B499E4A00A68DEA /* CallsViewController.swift */,
+			);
+			path = CallsViewController;
+			sourceTree = "<group>";
+		};
+		0167C5A82B499C8600A68DEA /* ContactsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0167C5AD2B499E6400A68DEA /* ContactsViewController.swift */,
+			);
+			path = ContactsViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,10 @@
 			dependencies = (
 			);
 			name = Telegram;
+			packageProductDependencies = (
+				014AF28D2B4941A9004E3A01 /* SnapKit */,
+				014AF28F2B4941A9004E3A01 /* SnapKit-Dynamic */,
+			);
 			productName = Telegram;
 			productReference = 015BF70F2B470C46004B59A7 /* Telegram.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 015BF7062B470C46004B59A7;
+			packageReferences = (
+				014AF28C2B4941A9004E3A01 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 015BF7102B470C46004B59A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +203,6 @@
 			files = (
 				015BF71F2B470C47004B59A7 /* LaunchScreen.storyboard in Resources */,
 				015BF71C2B470C47004B59A7 /* Assets.xcassets in Resources */,
-				015BF71A2B470C46004B59A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +213,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				015BF7172B470C46004B59A7 /* ViewController.swift in Sources */,
 				015BF7132B470C46004B59A7 /* AppDelegate.swift in Sources */,
+				0167C5AE2B499E6400A68DEA /* ContactsViewController.swift in Sources */,
+				014AF28B2B494163004E3A01 /* ChatsViewController.swift in Sources */,
+				0167C5A52B49991E00A68DEA /* MainTabBarController.swift in Sources */,
 				015BF7152B470C46004B59A7 /* SceneDelegate.swift in Sources */,
+				0167C5AC2B499E4A00A68DEA /* CallsViewController.swift in Sources */,
+				0167C5AA2B499E3A00A68DEA /* SetupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		015BF7182B470C46004B59A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				015BF7192B470C46004B59A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		015BF71D2B470C47004B59A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,10 +364,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Telegram/Info.plist;
+				INFOPLIST_FILE = Telegram/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,10 +391,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Telegram/Info.plist;
+				INFOPLIST_FILE = Telegram/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +432,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		014AF28C2B4941A9004E3A01 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		014AF28D2B4941A9004E3A01 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 014AF28C2B4941A9004E3A01 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		014AF28F2B4941A9004E3A01 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 014AF28C2B4941A9004E3A01 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 015BF7072B470C46004B59A7 /* Project object */;
 }
