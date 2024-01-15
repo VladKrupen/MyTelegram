@@ -10,6 +10,7 @@
 		014AF28B2B494163004E3A01 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014AF28A2B494163004E3A01 /* ChatsViewController.swift */; };
 		014AF28E2B4941A9004E3A01 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 014AF28D2B4941A9004E3A01 /* SnapKit */; };
 		014AF2902B4941A9004E3A01 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 014AF28F2B4941A9004E3A01 /* SnapKit-Dynamic */; };
+		014D29DD2B53DA15007A2318 /* ChatItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D29DC2B53DA15007A2318 /* ChatItemCell.swift */; };
 		015BF7132B470C46004B59A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015BF7122B470C46004B59A7 /* AppDelegate.swift */; };
 		015BF7152B470C46004B59A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015BF7142B470C46004B59A7 /* SceneDelegate.swift */; };
 		015BF71C2B470C47004B59A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015BF71B2B470C47004B59A7 /* Assets.xcassets */; };
@@ -18,10 +19,12 @@
 		0167C5AA2B499E3A00A68DEA /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0167C5A92B499E3900A68DEA /* SetupViewController.swift */; };
 		0167C5AC2B499E4A00A68DEA /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0167C5AB2B499E4A00A68DEA /* CallsViewController.swift */; };
 		0167C5AE2B499E6400A68DEA /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0167C5AD2B499E6400A68DEA /* ContactsViewController.swift */; };
+		017B26552B55907200F53404 /* ChatsCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B26542B55907200F53404 /* ChatsCellInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		014AF28A2B494163004E3A01 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		014D29DC2B53DA15007A2318 /* ChatItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItemCell.swift; sourceTree = "<group>"; };
 		015BF70F2B470C46004B59A7 /* Telegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		015BF7122B470C46004B59A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		015BF7142B470C46004B59A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		0167C5A92B499E3900A68DEA /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		0167C5AB2B499E4A00A68DEA /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
 		0167C5AD2B499E6400A68DEA /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		017B26542B55907200F53404 /* ChatsCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsCellInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				014AF28A2B494163004E3A01 /* ChatsViewController.swift */,
+				017B26542B55907200F53404 /* ChatsCellInfo.swift */,
+				014D29DC2B53DA15007A2318 /* ChatItemCell.swift */,
 			);
 			path = TelegramChatsViewController;
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 				015BF7132B470C46004B59A7 /* AppDelegate.swift in Sources */,
 				0167C5AE2B499E6400A68DEA /* ContactsViewController.swift in Sources */,
 				014AF28B2B494163004E3A01 /* ChatsViewController.swift in Sources */,
+				017B26552B55907200F53404 /* ChatsCellInfo.swift in Sources */,
 				0167C5A52B49991E00A68DEA /* MainTabBarController.swift in Sources */,
+				014D29DD2B53DA15007A2318 /* ChatItemCell.swift in Sources */,
 				015BF7152B470C46004B59A7 /* SceneDelegate.swift in Sources */,
 				0167C5AC2B499E4A00A68DEA /* CallsViewController.swift in Sources */,
 				0167C5AA2B499E3A00A68DEA /* SetupViewController.swift in Sources */,
